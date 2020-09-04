@@ -34,7 +34,7 @@ export function useEventCallback(callback, initialState, inputs) {
             inputs$.complete();
             event$.complete();
         };
-    }, []); // immutable forever
+    }, []); // immutable forever1
     return [returnedCallback, state];
 }
 //# sourceMappingURL=use-event-callback.js.map

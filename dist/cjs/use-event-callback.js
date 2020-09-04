@@ -37,7 +37,7 @@ function useEventCallback(callback, initialState, inputs) {
             inputs$.complete();
             event$.complete();
         };
-    }, []); // immutable forever
+    }, []); // immutable forever1
     return [returnedCallback, state];
 }
 exports.useEventCallback = useEventCallback;

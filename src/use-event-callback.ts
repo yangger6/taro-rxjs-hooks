@@ -79,7 +79,7 @@ export function useEventCallback<EventValue, State = void, Inputs = void>(
       inputs$.complete()
       event$.complete()
     }
-  }, []) // immutable forever
+  }, []) // immutable forever1
 
   return [returnedCallback as VoidableEventCallback<EventValue>, state]
 }
