@@ -1,6 +1,6 @@
-import { useEffect, useState, useCallback } from 'react'
-import useConstant from 'use-constant'
 import { Observable, BehaviorSubject, Subject } from 'rxjs'
+import { useEffect, useState, useCallback } from '@tarojs/taro'
+import useConstant from './use-constant'
 
 import { RestrictArray, VoidAsNull, Not } from './type'
 
